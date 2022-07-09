@@ -1,9 +1,9 @@
-package com.example.Assignment;
+package com.assignment.Assignment;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages= {"com.assignment"})
 public class AssignmentApplication {
 
 	public static void main(String[] args) {
